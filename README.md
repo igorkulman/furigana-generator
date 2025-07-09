@@ -42,6 +42,24 @@ Use the `-k` or `--kanji-level` option:
     ```
     (Furigana will not be added to N4 or N5 level kanji.)
 
+*   **Ignore N3 Kanji (includes N4 and N5):**
+    ```bash
+    python furigana_generator.py -k N3 input.txt
+    ```
+    (Furigana will not be added to N3, N4, or N5 level kanji.)
+
+*   **Ignore N2 Kanji (includes N3, N4 and N5):**
+    ```bash
+    python furigana_generator.py -k N2 input.txt
+    ```
+    (Furigana will not be added to N2, N3, N4, or N5 level kanji.)
+
+*   **Ignore All Kanji (N1):**
+    ```bash
+    python furigana_generator.py -k N1 input.txt
+    ```
+    (Furigana will not be added to any kanji, effectively ignoring all kanji.)
+
 ## License
 
 MIT
