@@ -1,0 +1,24 @@
+
+[project]
+name = "furigana-generator"
+version = "0.1.0"
+authors = [
+    {name = "Igor Kulman", email = "igor.kulman@gmail.com"},
+]
+description = "A simple tool to add furigana to Japanese text."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "sudachipy",
+    "sudachidict-core",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/igorkulman/furigana-generator"
+
+
